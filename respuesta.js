@@ -1,3 +1,3 @@
 function cerrarVentana() {
-    window.close();
+    window.location.href = 'index.html';
 }
