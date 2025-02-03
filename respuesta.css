@@ -122,3 +122,21 @@ button:hover {
         font-size: 0.8rem; /* Tamaño aún más pequeño */
     }
 }
+
+/* Estilos para el botón de música */
+#musicBtn {
+    background: #ff4d94;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 1rem; /* Espacio arriba del botón */
+}
+
+#musicBtn:hover {
+    background: #ff1b82;
+    transform: scale(1.05);
+}
